@@ -198,27 +198,27 @@
 
 
 // //3. Write code to illustrate the difference between regular functions and arrow functions in terms of `this` binding.
-// // let obj = {
-// //     name: "John",
-// //     sayHello: function() {
-// //         console.log(this.name); //output: John
-// //     },
-// //     sayHelloArrow: () => {
-// //             console.log(this.name); //output: undefined
-// //         }
-// //     };
-// //     obj.sayHello(); //output: John
-// //     obj.sayHelloArrow(); //output: undefined
+// let obj = {
+//     name: "John",
+//     sayHello: function() {
+//         console.log(this.name); //output: John
+//     },
+//     sayHelloArrow: () => {
+//             console.log(this.name); //output: undefined
+//         }
+//     };
+//     obj.sayHello(); //output: John
+//     obj.sayHelloArrow(); //output: undefined
 
 //4. Use the `arguments` keyword to access all arguments passed to a function.
-function sum() {
-    let sum = 0;
-    for (let i = 0; i < arguments.length; i++) {
-        sum += arguments[i];
-    }
-    return sum;
-}
-console.log(sum(1, 2, 3, 4, 5)); //output:15
+ //function sum() {
+ //  let sum = 0;
+ //   for (let i = 0; i < arguments.length; i++) {
+ //       sum += arguments[i];
+ //   }
+ //   return sum;
+ //}
+ //console.log(sum(1, 2, 3, 4, 5)); //output:15
 
 // //5. Compare and contrast objects and primitives in terms of their behavior and properties.
 // // Objects are mutable, meaning their properties can be changed after creation.
